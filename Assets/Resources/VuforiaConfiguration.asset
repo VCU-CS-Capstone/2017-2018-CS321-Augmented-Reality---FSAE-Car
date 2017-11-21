@@ -19,7 +19,7 @@ MonoBehaviour:
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    cameraDirection: 1
+    cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
     cameraOffset: 0.06
@@ -27,9 +27,9 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
-    useCustomViewer: 0
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
+    useCustomViewer: 1
     customViewer:
       Version: 0
       Name: 
@@ -59,8 +59,8 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
