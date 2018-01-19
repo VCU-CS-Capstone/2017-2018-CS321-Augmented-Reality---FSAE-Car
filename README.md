@@ -3,7 +3,7 @@
 #### We strongly recommend utilizing Unity and Vuforia for beginners. Both are extremely powerful tools for creating a variety of AR applications. In 2017, Unity and Vuforia made it much easier to create basic Augmented Reality applications by integrating Vuforia into the Unity development environment.
 ##### To start learning about Vuforia and Augmented Reality, click [here](https://library.vuforia.com/) :point_left:
 ##### To start learning how to utilize the Unity development environment, you can start [here](https://unity3d.com/learn/tutorials) :point_left:
-<h4 style="bottom-margin:50px;"> If you are downloading and installing <a href="https://unity3d.com/">Unity</a>, make sure to select the option to install the Vuforia import; this will make using AR features in Unity easier.</h4>
+<h4 class="markdown style="bottom-margin:50px;"> If you are downloading and installing <a href="https://unity3d.com/">Unity</a>, make sure to select the option to install the Vuforia import; this will make using AR features in Unity easier.</h4>
 
 ## Getting Started
 #### There are a few important things to to note starting out. You will need to create an account for Vuforia in order to link a Vuforia project with a Unity project. This key is also used as a reference to manage your image targets for your application so make sure to make a Vuforia account. Also make sure to download [Unity](https://unity3d.com/) if you haven't already.  
