@@ -24,10 +24,10 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 #### Environments: 
 #### Includes Extended Tracking and Ground Plane. [Extended tracking](https://library.vuforia.com/articles/Training/Extended-Tracking) solves the issue with large content being placed into the world. If the content being placed is larger than the current view of the camera, Vuforia uses Extended Tracking to allow the user to move away from the view of the image to see the rest of the content. Ground Plane is Vuforia's version of markerless targeting, known as AR Stickers in Google's ARCore and Apple's ARKit. Ground Plane detects flat surfaces where content can be placed by tapping on the screen. 
 
-##User Guide
+## User Guide
 
 
-##Augmented Reality SDK's
+## Augmented Reality SDK's
 
 
-##Advice
+## Advice
