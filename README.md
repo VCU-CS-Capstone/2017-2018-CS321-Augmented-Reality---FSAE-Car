@@ -7,7 +7,7 @@
 <h4 class="markdown style="bottom-margin:50px;"> If you are downloading and installing <a href="https://unity3d.com/">Unity</a>, make sure to select the option to install the Vuforia import; this will make using AR features in Unity easier.</h4>
 
 ## Getting Started
-#### There are a few important things to to note starting out. You will need to create an account for Vuforia in order to link a Vuforia project with a Unity project. This key is also used as a reference to manage your image targets for your application so make sure to make a Vuforia account. Also make sure to download [Unity](https://unity3d.com/) if you haven't already. This [video](https://www.youtube.com/watch?v=Fgd21lbhikU) was super helpful in getting started and understanding how to set up an AR Camera in Unity and building/deploying an application. There are tons of videos on youtube that can help you comprehend different ways of using the unique types of targeting. Vuforia also has a 'getting started' section that you can look over [here](https://library.vuforia.com/). From there, you can find all the documentation for Vuforia.
+#### There are a few important things to to note starting out. You will need to create an account for Vuforia in order to link a Vuforia project with a Unity project. This key is also used as a reference to manage your image targets for your application so make sure to make a Vuforia account. Also make sure to download [Unity](https://unity3d.com/) if you haven't already. This [video](https://www.youtube.com/watch?v=Fgd21lbhikU) was super helpful in getting started and understanding how to set up an AR Camera in Unity and building/deploying an application. There are tons of videos on youtube that can help you comprehend different ways of using the unique types of targeting. Vuforia also has a 'getting started' section that you can look at [here](https://library.vuforia.com/). From there, you can find all the documentation for Vuforia.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Fgd21lbhikU
 " target="_blank"><img src="http://img.youtube.com/vi/Fgd21lbhikU/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
@@ -23,3 +23,11 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### Environments: 
 #### Includes Extended Tracking and Ground Plane. [Extended tracking](https://library.vuforia.com/articles/Training/Extended-Tracking) solves the issue with large content being placed into the world. If the content being placed is larger than the current view of the camera, Vuforia uses Extended Tracking to allow the user to move away from the view of the image to see the rest of the content. Ground Plane is Vuforia's version of markerless targeting, known as AR Stickers in Google's ARCore and Apple's ARKit. Ground Plane detects flat surfaces where content can be placed by tapping on the screen. 
+
+##User Guide
+
+
+##Augmented Reality SDK's
+
+
+##Advice
