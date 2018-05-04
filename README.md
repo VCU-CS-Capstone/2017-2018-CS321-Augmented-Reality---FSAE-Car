@@ -6,7 +6,17 @@
 ##### To start learning how to utilize the Unity development environment, you can start [here](https://unity3d.com/learn/tutorials) :point_left:
 <h4 class="markdown style="bottom-margin:50px;"> If you are downloading and installing <a href="https://unity3d.com/">Unity</a>, make sure to select the option to install the Vuforia import; this will make using AR features in Unity easier.</h4>
 
-## Getting Started
+## Before you Start
+#### Before jumping straight into Vuforia and Unity, we should talk about Apple's ARKit and Google's ARCore. While we focused on Vuforia because it was what our sponsor used initally, eventually our sponsor started looking into ARKit. That being said, you should consider whether you have to use a certain SDK (is your sponsor/client constraining you) or can you explore other options. If you're not being constrained, we believe that ARKit or ARCore may be your best options. Vuforia is really easy and convenient for setting up simple AR applications, but it was hard to go beyond that. Based on what we've seen and researched, we believe that Google's and Apple's SDKs would have been better than using Vuforia. 
+#### Keep in mind the hardware and software constraints of each: With Vuforia, the device you needs depends on the type of targeting your using. For example, newer forms of targeting such as Ground Plane use newer devices. Check out Vuforia Ground Plane Requirements [here](https://library.vuforia.com/articles/Solution/ground-plane-supported-devices.html). Vuforia's requirements can be cumbersome to work with and with Vuforia you will have to use Unity. 
+
+#### If you pick ARCore, you have a few [options](https://developers.google.com/ar/develop/) for developer environments, mainly Android Studio, Unity, and Unreal Engine. If you have devices to work with it, ARCore seems like the most flexible option. ARCore's device requirements can be found [here](https://developers.google.com/ar/discover/). Also, as a side note, check out this [link](https://developers.google.com/ar/develop/developer-guides/anchors) to understand more about anchors. It explains the concept well, and it applies to every SDK regardless of which one you pick.
+
+#### If you are considering ARKit, keep in mind the constraint of working with Apple products. You're going to need Apple devices to deploy the app on to test and demo, as well as a Mac to actually develop and build your apps with XCode. We deployed our apps onto iPad Air 2's, but we were only able because one of our group members had a Mac for his personal laptop. While we were able to build and deploy, having only one Mac lead to a bad workflow for our group. To test our apps on the devices, we had to have our Mac guy pull from our git repo and test it for us. If there were problems, it was hard to fix over messaging and voice communications, so we usually had to meet in person to debug deploying issues. For ARKit, Device requirements for ARKit can be found [here](https://developer.apple.com/library/content/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
+
+#### These are all important things to consider when picking an AR SDK to work with so make sure to take some time to think about it and discuss it with your group. 
+
+## Starting Out
 #### There are a few important things to to note starting out. You will need to create an account for Vuforia in order to link a Vuforia project with a Unity project. This key is also used as a reference to manage your image targets for your application so make sure to make a Vuforia account. Also make sure to download [Unity](https://unity3d.com/) if you haven't already. This [video](https://www.youtube.com/watch?v=Fgd21lbhikU) was super helpful in getting started and understanding how to set up an AR Camera in Unity and building/deploying an application. There are tons of videos on youtube that can help you comprehend different ways of using the unique types of targeting. Vuforia also has a 'getting started' section that you can look at [here](https://library.vuforia.com/). From there, you can find all the documentation for Vuforia.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Fgd21lbhikU
 " target="_blank"><img src="http://img.youtube.com/vi/Fgd21lbhikU/0.jpg" 
@@ -26,8 +36,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## User Guide
 #### There are 3 directories in this repositories, which are each a separate Unity project. To use the projects, first pull the repository to your computer and then open Unity. After opening Unity and logging in, click on 'Open' in the top-right header. Navigate to the project directory you want to open, click on it, then click 'Select Folder'. This should open the project within the Unity developer environment.
-
-## Augmented Reality SDK's
-
 
 ## Advice
