@@ -22,6 +22,8 @@
 #### There are a few important things to note starting out. You will need to create an account for Vuforia in order to link a Vuforia project with a Unity project. Once you have a Vuforia account, you can navigate to the dev portal on their site and click the develop tab. From here you can acquire a development key or manage your old ones. This key is also used as a reference to manage your image targets for your application so make sure to make a Vuforia account. Also make sure to download [Unity](https://unity3d.com/) if you haven't already. This [video](https://www.youtube.com/watch?v=Fgd21lbhikU) and this [video](https://www.youtube.com/watch?v=0DvimHfzt40) were super helpful in getting started and understanding how to set up an AR Camera in Unity and building/deploying an application. There are tons of videos on youtube that can help you comprehend different ways of using the unique types of targeting. Vuforia also has a 'getting started' section that you can look at [here](https://library.vuforia.com/). From there, you can find all the documentation for Vuforia.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Fgd21lbhikU
 " target="_blank"><img src="http://img.youtube.com/vi/Fgd21lbhikU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> <a href="http://www.youtube.com/watch?feature=player_embedded&v=0DvimHfzt40
+" target="_blank"><img src="http://img.youtube.com/vi/0DvimHfzt40/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
